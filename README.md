@@ -1,20 +1,39 @@
-# Análisis de expresión génica con RNA-Seq.
+# Análisis de expresión génica con RNA-Seq
 
-Este proyecto tiene como objetivo analizar datos de secuenciación de ARN (RNA-Seq)
-para estudiar la expresión génica en un conjunto de muestras.
+## Descripción
+
+Este proyecto tiene como objetivo analizar la expresión génica utilizando datos de secuenciación de ARN (RNA-Seq).
+
+## Propósito
+
+Estudiar cómo varía la expresión de genes entre diferentes muestras, por ejemplo entre pacientes y grupo control.
 
 ## Objetivos
-- Procesar datos de expresión génica
-- Comparar muestras control y tratamiento
-- Identificar genes diferencialmente expresados
-- Visualizar resultados mediante gráficos
+
+* Procesar datos de RNA-Seq
+* Analizar niveles de expresión génica
+* Identificar genes diferencialmente expresados
+* Visualizar resultados
 
 ## Estructura del proyecto
-- data/: datos de entrada
-- scripts/: scripts de análisis
-- results/: resultados obtenidos
+
+* `data/`: contiene los datos de entrada
+* `scripts/`: contiene los scripts de análisis
+* `results/`: contiene los resultados obtenidos
+
+## Instrucciones de uso
+
+1. Descargar los datos en la carpeta `data/`
+2. Ejecutar los scripts desde la carpeta `scripts/`
+3. Revisar los resultados en la carpeta `results/`
 
 ## Herramientas
-- Git y GitHub
-- R
-- Paquetes de análisis bioinformático
+
+* Git y GitHub
+* R
+* Software de análisis bioinformático
+
+## Autores
+
+
+
