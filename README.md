@@ -1,4 +1,4 @@
-# Análisis de expresión génica con RNA-Seq
+# Análisis de expresión génica con RNA-Seq.
 
 Este proyecto tiene como objetivo analizar datos de secuenciación de ARN (RNA-Seq)
 para estudiar la expresión génica en un conjunto de muestras.
