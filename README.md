@@ -34,6 +34,6 @@ Estudiar cómo varía la expresión de genes entre diferentes muestras, por ejem
 * Software de análisis bioinformático
 
 ## Autores
-
+Israel Peña. 
 
 
