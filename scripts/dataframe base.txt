@@ -1,0 +1,15 @@
+# Actividad Grupal IPC
+## Creación del Dataframe base sobre el que debemos añadir los datos personales de cada alumno
+### Los vectores de conocimientos_biologia y conocimientos_informastica los creamos as.factor existiendo 3 posibles grados: Alto, Medio y Bajo
+
+df <- data.frame(
+  estudiante_id = c(1, 2, 3, 4, 5, 6),
+  nombre = c("Cristina", "Celia", "Israel", "Alberto", "X", "X"),
+  nacionalidad = c("Española", "Española", "Dominicana", "Española", "X", "X"),
+  sexo = c("Mujer", "Mujer", "Varon", "Varon", "X", "X"),
+  profesion = c("Farmacéutica", "Biomedicina", "Veterinario", "Medicina", "X", "X"),
+  conocimientos_biologia = as.factor(c("Alto", "Alto", "Alto", "Alto", "X", "X")),
+  conocimientos_informatica = as.factor(c("Bajo", "Bajo", "Medio", "Medio", "X", "X"))
+)
+
+
