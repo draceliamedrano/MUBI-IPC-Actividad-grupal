@@ -4,24 +4,12 @@
 
 df <- data.frame(
   estudiante_id = c(1, 2, 3, 4, 5, 6),
-  nombre = c("Cristina", "X", "Israel", "X", "X", "X"),
-  nacionalidad = c("Española", "X", "Dominicano", "X", "X", "X"),
-  sexo = c("Mujer", "X", "Varon", "X", "X", "X"),
-  profesion = c("Farmacéutica", "X", "Veterianrio", "X", "X", "X"),
-  conocimientos_biologia = as.factor(c("Alto", "X", "Medio", "X", "X", "X")),
-  conocimientos_informatica = as.factor(c("Bajo", "X", "Medio", "X", "X", "X"))
+  nombre = c("Cristina", "Celia", "Israel", "Alberto", "X", "X"),
+  nacionalidad = c("Española", "Española", "Dominicana", "Española", "X", "X"),
+  sexo = c("Mujer", "Mujer", "Varon", "Varon", "X", "X"),
+  profesion = c("Farmacéutica", "Biomedicina", "Veterinario", "Medicina", "X", "X"),
+  conocimientos_biologia = as.factor(c("Alto", "Alto", "Alto", "Alto", "X", "X")),
+  conocimientos_informatica = as.factor(c("Bajo", "Bajo", "Medio", "Medio", "X", "X"))
 )
 
-df
 
-df <- data.frame(
-  estudiante_id = c(1, 2, 3, 4, 5, 6),
-  nombre = c("Celia", "X", "X", "X", "X", "X"),
-  nacionalidad = c("Española", "X", "X", "X", "X", "X"),
-  sexo = c("Mujer", "X", "X", "X", "X", "X"),
-  profesion = c("Biomedicina", "X", "X", "X", "X", "X"),
-  conocimientos_biologia = as.factor(c("Alto", "X", "X", "X", "X", "X")),
-  conocimientos_informatica = as.factor(c("Bajo", "X", "X", "X", "X", "X"))
-)
-
-df
