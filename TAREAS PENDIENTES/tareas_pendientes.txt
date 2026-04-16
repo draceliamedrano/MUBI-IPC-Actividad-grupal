@@ -1,0 +1,5 @@
+Crear un Fork personal -> ARIADNA BALTASAR
+Nombres de archivos sin espacios: poner separaciones con _ -> ARIADNA
+Crear CARPETA (Imagenes) con ARCHIVO (Graficos.png) -> BALTASAR
+Rellenar datos de Dataframe base -> ARIADNA BALTASAR
+Cuando tengais hechas las modificaciones hacer Pull Request
