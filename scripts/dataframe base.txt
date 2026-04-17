@@ -4,12 +4,12 @@
 
 df <- data.frame(
   estudiante_id = c(1, 2, 3, 4, 5, 6),
-  nombre = c("Cristina", "Celia", "Israel", "Alberto", "Baltasar", "X"),
-  nacionalidad = c("Española", "Española", "Dominicana", "Española", "Española", "X"),
-  sexo = c("Mujer", "Mujer", "Varon", "Varon", "Varon", "X"),
-  profesion = c("Farmacéutica", "Biomedicina", "Veterinario", "Medicina", "Biomedicina", "X"),
-  conocimientos_biologia = as.factor(c("Alto", "Alto", "Alto", "Alto", "Alto", "X")),
-  conocimientos_informatica = as.factor(c("Bajo", "Bajo", "Medio", "Medio", "Medio", "X"))
+  nombre = c("Cristina", "Celia", "Israel", "Alberto", "Baltasar", "Ariadna"),
+  nacionalidad = c("Española", "Española", "Dominicana", "Española", "Española", "Española"),
+  sexo = c("Mujer", "Mujer", "Varon", "Varon", "Varon", "Mujer"),
+  profesion = c("Farmacéutica", "Biomedicina", "Veterinario", "Medicina", "Biomedicina", "Biotecnología"),
+  conocimientos_biologia = as.factor(c("Alto", "Alto", "Alto", "Alto", "Alto", "Alto")),
+  conocimientos_informatica = as.factor(c("Bajo", "Bajo", "Medio", "Medio", "Medio", "Bajo"))
 )
 
 
