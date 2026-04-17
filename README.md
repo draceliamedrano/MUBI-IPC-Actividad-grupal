@@ -20,6 +20,7 @@ Este proyecto tiene como objetivo crear un entorno de trabajo compartido en GitH
 * `datos/`: contiene los datos de los alumnos
 * `reports/`: contiene los markdown / html de presentación de resultados
 * `scripts/`: contiene los scripts
+* `Imagenes/`: contiene los gráficos
 
 ## Herramientas
 
