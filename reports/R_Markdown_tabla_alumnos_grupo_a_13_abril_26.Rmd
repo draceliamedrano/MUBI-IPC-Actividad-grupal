@@ -1,0 +1,24 @@
+---
+title: "Tabla alumnos grupo"
+author: "Alberto"
+date: "13 abril 26"
+---
+
+## Código R para el data frame
+
+Se muestra el script con los datos y su visualización en forma de tabla.
+
+```{r definicion-df}
+# Código
+df <- data.frame(
+    estudiante_id = c(1, 2, 3, 4, 5, 6),
+    nombre = c("Cristina", "Celia", "Israel", "Alberto", "Baltasar", "Ariadna"),
+    nacionalidad = c("Española", "Española", "Dominicana", "Española", "Española", "Española"),
+    sexo = c("Mujer", "Mujer", "Varon", "Varon", "Varon", "Mujer"),
+    profesion = c("Farmacéutica", "Biomedicina", "Veterinario", "Medicina", "Biomedicina", "Biotecnologia"),
+    conocimientos_biologia = as.factor(c("Alto", "Alto", "Alto", "Alto", "Alto", "Alto")),
+    conocimientos_informatica = as.factor(c("Bajo", "Bajo", "Medio", "Medio", "Medio", "Bajo"))
+)
+
+# Resultado
+print(df)
